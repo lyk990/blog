@@ -1,38 +1,37 @@
 ---
-title: Hello World
+title: 写了个辅助学习vite的小工具（mini-vite）
+sticky: 1
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+话不多说先贴上仓库地址 [mini-vite](https://github.com/lyk990/mini-vite)
 
-### Create a new post
+## 看源码的几个问题
 
-``` bash
-$ hexo new "My New Post"
-```
+*   封装的方法太多，不知道从哪个方法看起
+*   随便一个文件就是一两千行代码，看得头皮发麻
+*   不知道该怎么去debug，到底应该在哪个方法里面debug
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+没关系，这些问题在我这都能解决
 
-### Run server
+## 我做了什么
 
-``` bash
-$ hexo server
-```
+**移除了vite仓库中的所有注释和其他对于所要学习的vite功能用不上的方法，并为核心方法添加上了注释**
 
-More info: [Server](https://hexo.io/docs/server.html)
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7db7ceded8814fe0aab77fa2ea09eee9~tplv-k3u1fbpfcp-watermark.image?)
+**为需要实现的核心功能画上了简易的思维导图**
 
-### Generate static files
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/23e7e3ce9f0a4019880e28b25b82395e~tplv-k3u1fbpfcp-watermark.image?)
+**配置了debug功能，直接就能在代码内debug**
 
-``` bash
-$ hexo generate
-```
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e344d2d22da4870a4aa7513b531abde~tplv-k3u1fbpfcp-watermark.image?)
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+> 本仓库只实现了vite比较常用的几个功能，后续在vite的学习中，我可能也会不断的往mini-vite里面加上新功能
+>
+> 失业程序员待业中，希望大家能给几个star，让我能找工作稍微轻松点，毕业一年，年限卡的死死的，面试都没几个，谢谢大家了
 
-### Deploy to remote sites
+再次贴上仓库地址 [mini-vite](https://github.com/lyk990/mini-vite)
 
-``` bash
-$ hexo deploy
-```
+## 参考
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+*   [深入浅出vite](https://juejin.cn/book/7050063811973218341?scrollMenuIndex=1)
+*   [bilibili.我们一起学前端·vite源码解析](https://space.bilibili.com/329245232/channel/collectiondetail?sid=1181310)
