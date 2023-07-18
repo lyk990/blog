@@ -4,34 +4,4 @@ sticky: 1
 ---
 
 话不多说先贴上仓库地址 [mini-vite](https://github.com/lyk990/mini-vite)
-
-## 看源码的几个问题
-
-*   封装的方法太多，不知道从哪个方法看起
-*   随便一个文件就是一两千行代码，看得头皮发麻
-*   不知道该怎么去debug，到底应该在哪个方法里面debug
-
-没关系，这些问题在我这都能解决
-
-## 我做了什么
-
-**移除了vite仓库中的所有注释和其他对于所要学习的vite功能用不上的方法，并为核心方法添加上了注释**
-
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7db7ceded8814fe0aab77fa2ea09eee9~tplv-k3u1fbpfcp-watermark.image?)
-**为需要实现的核心功能画上了简易的思维导图**
-
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/23e7e3ce9f0a4019880e28b25b82395e~tplv-k3u1fbpfcp-watermark.image?)
-**配置了debug功能，直接就能在代码内debug**
-
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e344d2d22da4870a4aa7513b531abde~tplv-k3u1fbpfcp-watermark.image?)
-
-> 本仓库只实现了vite比较常用的几个功能，后续在vite的学习中，我可能也会不断的往mini-vite里面加上新功能
->
-> 失业程序员待业中，希望大家能给几个star，让我能找工作稍微轻松点，毕业一年，年限卡的死死的，面试都没几个，谢谢大家了
-
-再次贴上仓库地址 [mini-vite](https://github.com/lyk990/mini-vite)
-
-## 参考
-
-*   [深入浅出vite](https://juejin.cn/book/7050063811973218341?scrollMenuIndex=1)
-*   [bilibili.我们一起学前端·vite源码解析](https://space.bilibili.com/329245232/channel/collectiondetail?sid=1181310)
+文章链接[mini-vite](https://juejin.cn/post/7239173192493514808)
