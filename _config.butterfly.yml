@@ -15,7 +15,7 @@ menu:
   分类: /categories/ || fas fa-folder-open
   # 留言板: /messageboard/ || fas fa-comment-dots
   # 友链: /link/ || fas fa-link
-  关于我: /about/ || fas fa-heartbeat
+  # 关于我: /about/ || fas fa-heartbeat
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -38,18 +38,18 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /image/favicon.jpg
 
 # Avatar (頭像)
 avatar:
-  img: /img/avatar.png
+  img: /image/avatar.png
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://file.crazywong.com/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
+index_img: https://lyk990-my-blog.oss-cn-shenzhen.aliyuncs.com/assets/index-homePage.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://file.crazywong.com/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
@@ -442,7 +442,7 @@ disqus:
 # livere (來必力)
 # https://www.livere.com/
 livere:
-  uid: MTAyMC81ODczMy8zNTE5NQ==
+  # uid: MTAyMC81ODczMy8zNTE5NQ==
 
 # gitalk
 # https://github.com/gitalk/gitalk
@@ -742,8 +742,8 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
-  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  # font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  # code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -881,7 +881,7 @@ pangu:
 lazyload:
   enable: true
   field: site # site/post
-  placeholder: /img/loading.gif
+  placeholder: /image/loading.gif
   blur: false
 
 # PWA
@@ -929,19 +929,19 @@ CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版的主題只能設置為 local )
-  internal_provider: local
+  internal_provider: custom
 
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: jsdelivr
+  third_party_provider: custom
 
   # Add version number to url, true or false
   version: false
 
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format:
+  custom_format: https://file.crazywong.com/npm/${name}@latest/${min_file}
 
   option:
     # main_css:
