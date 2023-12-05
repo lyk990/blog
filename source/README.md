@@ -19,3 +19,5 @@
 [AOP装饰函数在前端中的应用](https://github.com/lyk990/lyk990.github.io/issues/6)
 
 [怎么写出好看的代码?](https://github.com/lyk990/lyk990.github.io/issues/8)
+
+[以一名初级前端的视角来理解“架构](https://github.com/lyk990/lyk990.github.io/issues/10)
